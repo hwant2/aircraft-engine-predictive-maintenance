@@ -71,7 +71,7 @@ aircraft-engine-predictive-maintenance/
 │
 ├── Analysis/
 │   ├── README.md
-│   └── aircraft_engine_predictive_maintenance.ipynb
+│   └── Engine data.ipynb
 │
 ├── Data/
 │   ├── README.md
