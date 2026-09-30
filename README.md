@@ -1,119 +1,159 @@
-# Aircraft Engine Predictive Maintenance Analysis
+Aircraft Engine Predictive Maintenance Analysis
 
-## Project Overview
+Project Overview
 
-This project analyzes aircraft engine sensor data to identify patterns associated with engine degradation and remaining useful life (RUL).
+This project analyzes aircraft engine sensor data to identify degradation patterns and relationships with remaining useful life (RUL).
 
-The analysis uses the NASA C-MAPSS FD001 dataset and applies data analytics techniques to examine engine operating cycles, sensor behavior, and indicators of declining engine performance.
+The goal was to use data analytics to examine how engine operating cycles and sensor measurements change as an engine approaches the end of its useful life.
 
-The goal is to demonstrate how data can be used to support predictive maintenance and maintenance planning in an aerospace and manufacturing environment.
+Business Problem
 
-## Business Problem
+Aircraft and other complex mechanical systems require effective maintenance strategies to reduce unexpected failures, improve maintenance planning, and maximize equipment availability.
 
-Unplanned equipment failures can result in production delays, increased maintenance costs, and reduced equipment availability.
+Predictive maintenance uses equipment data to identify patterns that may indicate degradation before a failure occurs.
 
-Predictive maintenance uses historical and operational data to identify patterns that may indicate equipment degradation before failure occurs.
+This project applies that approach to aircraft engine data.
 
-This project examines aircraft engine data to determine which measurements provide useful indicators of remaining useful life and how those indicators could support maintenance decisions.
+Dataset
 
-## Objectives
+The analysis uses the NASA C-MAPSS FD001 dataset.
 
-The analysis focuses on the following questions:
+The dataset contains simulated aircraft engine run-to-failure data with multiple sensor measurements collected throughout each engine’s operating life.
 
-1. How does engine condition change as operating cycles increase?
-2. Which sensors show the strongest relationship with remaining useful life?
-3. What patterns appear as engines approach failure?
-4. Which engines have the shortest and longest useful operating lives?
-5. How can the findings support predictive maintenance planning?
+Dataset Summary
 
-## Dataset
+* 100 engines
+* 20,631 observations
+* 27 columns
+* 2,244,815 total engine cycles
 
-The project uses the NASA C-MAPSS FD001 dataset.
-
-The dataset contains simulated turbofan engine degradation data collected across multiple engines and operating cycles.
-
-The analysis dataset contains:
-
-- 100 engines
-- 20,631 observations
-- 27 columns
-- Engine operating cycles
-- Multiple sensor measurements
-- Remaining useful life (RUL)
-
-## Tools Used
-
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Data analysis and visualization
-- GitHub
-
-## Key Analysis
+Analysis Performed
 
 The analysis examined:
 
-- Engine operating cycles
-- Sensor measurements
-- Remaining useful life
-- Correlations between sensor measurements and RUL
-- Engine degradation patterns
-- Differences in useful operating life
-- Potential predictive maintenance indicators
+* Engine operating cycles
+* Sensor behavior over time
+* Remaining useful life
+* Sensor-to-RUL relationships
+* Degradation patterns
+* Variables that may provide useful predictive-maintenance indicators
 
-## Key Findings
+Python and data-analysis techniques were used to explore and interpret the data.
 
-Several sensor measurements showed meaningful relationships with remaining useful life.
+Key Findings
 
-The strongest negative relationships with RUL included:
+Several variables showed relatively strong relationships with remaining useful life.
 
-- Time in cycles
-- Sensor 11
-- Sensor 4
-- Sensor 15
-- Sensor 2
-- Sensor 17
-- Sensor 3
+Stronger Negative Relationships
 
-Several sensors showed positive relationships with RUL, including:
+Variable	Correlation with RUL
+Time in cycles	-0.736
+Sensor 11	-0.696
+Sensor 4	-0.679
+Sensor 15	-0.643
+Sensor 2	-0.606
+Sensor 17	-0.606
+Sensor 3	-0.585
 
-- Sensor 12
-- Sensor 7
-- Sensor 21
-- Sensor 20
+Stronger Positive Relationships
 
-These relationships provide insight into which measurements may be useful when monitoring engine degradation.
+Variable	Correlation with RUL
+Sensor 12	+0.672
+Sensor 7	+0.657
+Sensor 21	+0.636
+Sensor 20	+0.629
 
-## Maintenance Application
+These relationships indicate that several sensor measurements change in ways associated with remaining useful life and may be useful for further predictive-maintenance modeling.
 
-The results demonstrate how historical equipment data can be used to identify degradation patterns and support predictive maintenance.
+Project Structure
 
-In a manufacturing or aerospace environment, similar analytical approaches could help maintenance teams:
-
-- Identify equipment showing signs of degradation
-- Prioritize inspections
-- Plan maintenance before failure
-- Reduce unexpected downtime
-- Improve equipment availability
-- Support data-driven maintenance decisions
-
-## Project Structure
-
-```text
 aircraft-engine-predictive-maintenance/
 │
-├── analysis/
-├── data/
-├── documentation/
-├── results/
-├── visualizations/
-├── .gitignore
+├── Analysis/
+│   ├── README.md
+│   └── aircraft_engine_predictive_maintenance.ipynb
+│
+├── Data/
+│   ├── README.md
+│   ├── RUL_FD001
+│   └── TRAIN_FD001
+│
+├── Documentation/
+│   ├── README.md
+│   └── Aircraft Engine Predictive Maintenance Analysis
+│
+├── Results/
+│   └── README.md
+│
+├── Visualizations/
+│   ├── README.md
+│   └── Analysis Visualizations
+│
 └── README.md
 
-## Author
+Results
 
-Harold Wanton
+The analysis identified sensor variables that demonstrated meaningful relationships with remaining useful life.
 
-Data Analytics | Manufacturing | Maintenance | Predictive Maintenance
+These findings can support future predictive models designed to estimate RUL and identify potential degradation before equipment failure.
+
+The results are documented in the Results folder.
+
+Visualizations
+
+The Visualizations folder contains charts created during the analysis to illustrate:
+
+* Sensor relationships with RUL
+* Engine degradation patterns
+* Operating-cycle behavior
+* Other supporting analysis results
+
+Maintenance Applications
+
+The analysis demonstrates how sensor data can support:
+
+* Condition-based maintenance
+* Predictive maintenance
+* Early identification of degradation
+* Maintenance planning
+* Reduction of unexpected equipment downtime
+* Data-driven maintenance decisions
+
+Tools & Skills
+
+Technical Skills
+
+* Python
+* Pandas
+* Matplotlib
+* Data Cleaning
+* Exploratory Data Analysis
+* Correlation Analysis
+* Data Visualization
+* Predictive Maintenance
+* Remaining Useful Life Analysis
+
+Industry Knowledge
+
+* Aircraft and engine systems
+* Mechanical maintenance
+* Preventive maintenance
+* Equipment troubleshooting
+* Reliability concepts
+* Manufacturing and industrial equipment
+
+Documentation
+
+The complete project report is available in the Documentation folder.
+
+The analysis notebook is available in the Analysis folder.
+
+Conclusion
+
+This project demonstrates the use of data analytics to examine aircraft engine degradation and remaining useful life.
+
+The analysis combines technical maintenance knowledge with data analytics to identify patterns that could support more proactive maintenance strategies.
+
+⸻
+
+Author: Harold Wanton
