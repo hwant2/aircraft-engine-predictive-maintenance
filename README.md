@@ -10,7 +10,28 @@ The objective is to demonstrate how equipment condition data can support reliabi
 
 **Project Scope:** Exploratory data analysis, sensor correlation analysis, RUL calculations, and degradation visualization. This project does not claim to have trained or validated a predictive RUL model.
 
+## Explore the Project
 
+| Project Component | Description |
+|---|---|
+| [Python Analysis Notebook](analysis/Engine%20Data.ipynb) | Exploratory analysis, RUL calculations, and sensor relationships |
+| [Analysis Results](results/README.md) | Dataset validation, correlations, and maintenance recommendations |
+| [Visualizations](visualizations/README.md) | Seven charts illustrating engine behavior and degradation |
+| [Dataset](data/README.md) | NASA C-MAPSS FD001 training data |
+| [Analysis Documentation](analysis/README.md) | Notebook setup and reproduction instructions |
+| [Project Report](documentation/AIRCRAFT%20ENGINE%20PREDICTIVE%20MAINTENANCE%20ANALYSIS-3.docx) | Detailed project documentation |
+
+## Featured Visualizations
+
+### Sensor 11 vs. Remaining Useful Life
+
+![Sensor 11 vs RUL](visualizations/Sensor_11_vs_RUL.png)
+
+### Representative Engine RUL Trends
+
+![Representative Engine RUL Trends](visualizations/representative.png)
+
+These charts illustrate relationships between sensor behavior, engine operating cycles, and calculated remaining useful life in simulated turbofan engines.
 
 ## Business Problem
 
