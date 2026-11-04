@@ -2,9 +2,15 @@
 
 ## Project Overview
 
-This project analyzes aircraft engine sensor data to identify degradation patterns and relationships with remaining useful life (RUL).
+This project examines aircraft engine degradation using NASA's simulated C-MAPSS FD001 turbofan engine dataset. The analysis evaluates engine operating cycles, sensor measurements, and remaining useful life (RUL) to identify patterns associated with equipment deterioration.
 
-The goal was to use data analytics to examine how engine operating cycles and sensor measurements change as an engine approaches the end of its useful life.
+Using Python, Pandas, and data visualization techniques, the project explores relationships between engine sensor behavior and remaining operational life across 100 simulated engines and 20,631 observations.
+
+The objective is to demonstrate how equipment condition data can support reliability analysis, maintenance planning, and the development of future predictive maintenance models.
+
+**Project Scope:** Exploratory data analysis, sensor correlation analysis, RUL calculations, and degradation visualization. This project does not claim to have trained or validated a predictive RUL model.
+
+
 
 ## Business Problem
 
