@@ -1,39 +1,45 @@
-# Visualizations
+# Aircraft Engine Predictive Maintenance — Visualizations
 
-This folder contains visual outputs created during the aircraft engine predictive maintenance analysis.
+## Overview
 
-Purpose
+This folder contains seven visualizations developed during the exploratory analysis of NASA's simulated C-MAPSS FD001 aircraft engine dataset.
 
-The visualizations were used to identify relationships between engine operating cycles, sensor measurements, degradation patterns, and remaining useful life (RUL).
+The charts illustrate engine operating cycles, remaining useful life (RUL), sensor relationships, and degradation patterns.
 
-Planned Visualizations
+## Visualization Files
 
-The analysis focuses on:
+| File | Analytical Purpose |
+|---|---|
+| `Sensor_11_vs_RUL.png` | Examine Sensor 11's relationship with RUL |
+| `Sensor_15.png` | Explore Sensor 15 behavior |
+| `Sensor_4.png` | Explore Sensor 4 behavior |
+| `distribution.png` | Display the distribution of an analyzed variable |
+| `remaining.png` | Visualize remaining useful life |
+| `representative.png` | Compare RUL trends across representative engines |
+| `top_10.png` | Summarize the top 10 variables selected in the analysis |
 
-* Sensor behavior over engine operating cycles
-* Remaining useful life trends
-* Sensor correlations with RUL
-* Changes in engine condition as failure approaches
-* Identification of sensors with stronger relationships to remaining useful life
+## Key Correlation Findings
 
-Key Relationships
+**Negative correlations with RUL**
 
-The analysis identified several sensor variables with relatively strong relationships to RUL. These relationships will be represented visually to make degradation patterns easier to understand.
+- Operating cycles: -0.736
+- Sensor 11: -0.696
+- Sensor 4: -0.679
+- Sensor 15: -0.643
 
-Strong Negative Relationships
+**Positive correlations with RUL**
 
-* Time in cycles: -0.736
-* Sensor 11: -0.696
-* Sensor 4: -0.679
-* Sensor 15: -0.643
+- Sensor 12: +0.672
+- Sensor 7: +0.657
+- Sensor 21: +0.636
+- Sensor 20: +0.629
 
-Strong Positive Relationships
+## Maintenance Applications
 
-* Sensor 12: +0.672
-* Sensor 7: +0.657
-* Sensor 21: +0.636
-* Sensor 20: +0.629
+These visualizations demonstrate how engine condition data can help identify degradation trends, evaluate potential condition-monitoring indicators, and support future RUL prediction research.
 
-Use in Predictive Maintenance
+Correlations describe statistical relationships, not proof of causation or validated failure-prediction performance.
 
-These visualizations help communicate which measurements may provide useful indicators of engine degradation and remaining useful life. They also provide a foundation for future predictive modeling and maintenance decision support.
+## Limitations
+
+The dataset contains simulated turbofan engine data. The charts represent exploratory findings and should not be interpreted as validated maintenance thresholds or operational failure predictions.
