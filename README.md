@@ -58,7 +58,7 @@ The dataset contains simulated aircraft engine run-to-failure data with multiple
 - **Operating settings:** 3
 - **Sensor measurements:** 21
 
-Analysis Performed
+## Analysis Performed
 
 The analysis examined:
 
@@ -96,7 +96,7 @@ Sensor 20	+0.629
 
 These relationships indicate that several sensor measurements change in ways associated with remaining useful life and may be useful for further predictive-maintenance modeling.
 
-Project Structure
+## Project Structure
 
 aircraft-engine-predictive-maintenance/
 ├── analysis/
@@ -132,7 +132,7 @@ These findings can support future predictive models designed to estimate RUL and
 
 The results are documented in the Results folder.
 
-Visualizations
+## Visualizations
 
 The Visualizations folder contains charts created during the analysis to illustrate:
 
@@ -141,7 +141,7 @@ The Visualizations folder contains charts created during the analysis to illustr
 * Operating-cycle behavior
 * Other supporting analysis results
 
-Maintenance Applications
+## Maintenance Applications
 
 The analysis demonstrates how sensor data can support:
 
@@ -152,7 +152,7 @@ The analysis demonstrates how sensor data can support:
 * Reduction of unexpected equipment downtime
 * Data-driven maintenance decisions
 
-Tools & Skills
+## Tools & Skills
 
 ### Technical Skills
 
@@ -175,7 +175,7 @@ Tools & Skills
 * Reliability concepts
 * Manufacturing and industrial equipment
 
-Documentation
+## Documentation
 
 The complete project report is available in the Documentation folder.
 
