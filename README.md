@@ -28,10 +28,14 @@ The dataset contains simulated aircraft engine run-to-failure data with multiple
 
 ### Dataset Summary
 
-* 100 engines
-* 20,631 observations
-* 27 columns
-* 2,244,815 total engine cycles
+- **Dataset:** NASA C-MAPSS FD001 (simulated turbofan engines)
+- **Engines:** 100
+- **Observations:** 20,631
+- **Columns:** 26
+- **Total engine cycles (sum of cycle values):** 2,244,815
+- **Missing values:** 0
+- **Operating settings:** 3
+- **Sensor measurements:** 21
 
 Analysis Performed
 
