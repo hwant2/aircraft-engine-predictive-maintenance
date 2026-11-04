@@ -98,10 +98,14 @@ These relationships indicate that several sensor measurements change in ways ass
 
 ## Project Structure
 
+'''text
 aircraft-engine-predictive-maintenance/
 ├── analysis/
+'''
 │   ├── Engine Data.ipynb
+'''
 │   └── README.md
+'''
 ├── data/
 │   ├── train_FD001.txt
 │   ├── RUL_FD001.txt
