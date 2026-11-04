@@ -68,28 +68,30 @@ These relationships indicate that several sensor measurements change in ways ass
 Project Structure
 
 aircraft-engine-predictive-maintenance/
-│
-├── Analysis/
-│   ├── README.md
-│   └── Engine data.ipynb
-│
-├── Data/
-│   ├── README.md
-│   ├── RUL_FD001
-│   └── TRAIN_FD001
-│
-├── Documentation/
-│   ├── README.md
-│   └── Aircraft Engine Predictive Maintenance Analysis
-│
-├── Results/
+├── analysis/
+│   ├── Engine Data.ipynb
 │   └── README.md
-│
-├── Visualizations/
-│   ├── README.md
-│   └── Analysis Visualizations
-│
+├── data/
+│   ├── train_FD001.txt
+│   ├── RUL_FD001.txt
+│   └── README.md
+├── documentation/
+│   ├── AIRCRAFT ENGINE PREDICTIVE MAINTENANCE ANALYSIS-3.docx
+│   └── README.md
+├── results/
+│   └── README.md
+├── visualizations/
+│   ├── Sensor_11_vs_RUL.png
+│   ├── Sensor_15.png
+│   ├── Sensor_4.png
+│   ├── distribution.png
+│   ├── remaining.png
+│   ├── representative.png
+│   ├── top_10.png
+│   └── README.md
+├── .gitignore
 └── README.md
+
 
 Results
 
