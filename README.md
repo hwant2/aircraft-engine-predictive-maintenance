@@ -1,12 +1,12 @@
-#Aircraft Engine Predictive Maintenance Analysis
+# Aircraft Engine Predictive Maintenance Analysis
 
-##Project Overview
+## Project Overview
 
 This project analyzes aircraft engine sensor data to identify degradation patterns and relationships with remaining useful life (RUL).
 
 The goal was to use data analytics to examine how engine operating cycles and sensor measurements change as an engine approaches the end of its useful life.
 
-##Business Problem
+## Business Problem
 
 Aircraft and other complex mechanical systems require effective maintenance strategies to reduce unexpected failures, improve maintenance planning, and maximize equipment availability.
 
@@ -14,13 +14,13 @@ Predictive maintenance uses equipment data to identify patterns that may indicat
 
 This project applies that approach to aircraft engine data.
 
-##Dataset
+## Dataset
 
 The analysis uses the NASA C-MAPSS FD001 dataset.
 
 The dataset contains simulated aircraft engine run-to-failure data with multiple sensor measurements collected throughout each engine’s operating life.
 
-###Dataset Summary
+### Dataset Summary
 
 * 100 engines
 * 20,631 observations
@@ -40,11 +40,11 @@ The analysis examined:
 
 Python and data-analysis techniques were used to explore and interpret the data.
 
-##Key Findings
+## Key Findings
 
 Several variables showed relatively strong relationships with remaining useful life.
 
-###Stronger Negative Relationships
+### Stronger Negative Relationships
 
 Variable	Correlation with RUL
 Time in cycles	-0.736
@@ -55,7 +55,7 @@ Sensor 2	-0.606
 Sensor 17	-0.606
 Sensor 3	-0.585
 
-###Stronger Positive Relationships
+### Stronger Positive Relationships
 
 Variable	Correlation with RUL
 Sensor 12	+0.672
@@ -93,7 +93,7 @@ aircraft-engine-predictive-maintenance/
 └── README.md
 
 
-##Results
+## Results
 
 The analysis identified sensor variables that demonstrated meaningful relationships with remaining useful life.
 
@@ -123,7 +123,7 @@ The analysis demonstrates how sensor data can support:
 
 Tools & Skills
 
-###Technical Skills
+### Technical Skills
 
 * Python
 * Pandas
@@ -135,7 +135,7 @@ Tools & Skills
 * Predictive Maintenance
 * Remaining Useful Life Analysis
 
-###Industry Knowledge
+### Industry Knowledge
 
 * Aircraft and engine systems
 * Mechanical maintenance
@@ -150,7 +150,7 @@ The complete project report is available in the Documentation folder.
 
 The analysis notebook is available in the Analysis folder.
 
-##Conclusion
+## Conclusion
 
 This project demonstrates the use of data analytics to examine aircraft engine degradation and remaining useful life.
 
